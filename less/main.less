@@ -1,0 +1,47 @@
+.slide {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 200px;
+	max-height: 100%;
+	width: 100%;
+}
+
+.slide-nav {
+	z-index: 999;
+	position: absolute;
+	top: 42%;
+	transform: translate(-42%);
+	height: 40%;	
+	i {
+		color: white;
+	}
+	button {
+		border: none;
+		background-color: rgba(255,255,255,0);
+	}
+	button:focus {
+		outline: 0;
+	}
+}
+
+.right {
+	right: 0;
+}
+
+.left {
+	left: 20px;
+}
+
+.slide.ng-hide-add {
+	animation:1.2s slideOutLeft ease;
+}
+
+.slide.ng-hide-remove {
+	animation:0.9s slideInRight ease;
+}
+
+.navbar-comment {
+	position: absolute;
+	top: 0;
+}
