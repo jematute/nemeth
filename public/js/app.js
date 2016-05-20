@@ -40,8 +40,6 @@ angular.module('app').directive('backImg', function(){
 angular.module('app').controller("mainCtrl", ['$scope', '$timeout', function ($scope, $timeout) {
 	// body...
 	$scope.slides = [{
-		image: '/img/_mg_1705.jpg',
-	}, {
 		image: '/img/_mg_1669.jpg'
 	}, {
 		image: '/img/_mg_1705.jpg'
